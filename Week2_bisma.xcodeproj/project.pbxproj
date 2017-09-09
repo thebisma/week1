@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A69DB6E1F63835700B842FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69DB6D1F63835700B842FC /* AppDelegate.swift */; };
+		6A69DB701F63835700B842FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69DB6F1F63835700B842FC /* FirstViewController.swift */; };
+		6A69DB721F63835700B842FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69DB711F63835700B842FC /* SecondViewController.swift */; };
+		6A69DB751F63835700B842FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A69DB731F63835700B842FC /* Main.storyboard */; };
+		6A69DB771F63835700B842FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A69DB761F63835700B842FC /* Assets.xcassets */; };
+		6A69DB7A1F63835700B842FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A69DB781F63835700B842FC /* LaunchScreen.storyboard */; };
+		6A69DB851F63835700B842FC /* Week2_bismaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69DB841F63835700B842FC /* Week2_bismaTests.swift */; };
+		6A69DB901F63835700B842FC /* Week2_bismaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69DB8F1F63835700B842FC /* Week2_bismaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A69DB811F63835700B842FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A69DB621F63835600B842FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A69DB691F63835700B842FC;
+			remoteInfo = Week2_bisma;
+		};
+		6A69DB8C1F63835700B842FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A69DB621F63835600B842FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A69DB691F63835700B842FC;
+			remoteInfo = Week2_bisma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A69DB6A1F63835700B842FC /* Week2_bisma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_bisma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69DB6D1F63835700B842FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A69DB6F1F63835700B842FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6A69DB711F63835700B842FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6A69DB741F63835700B842FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A69DB761F63835700B842FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A69DB791F63835700B842FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A69DB7B1F63835700B842FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A69DB801F63835700B842FC /* Week2_bismaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2_bismaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69DB841F63835700B842FC /* Week2_bismaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_bismaTests.swift; sourceTree = "<group>"; };
+		6A69DB861F63835700B842FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A69DB8B1F63835700B842FC /* Week2_bismaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2_bismaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69DB8F1F63835700B842FC /* Week2_bismaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_bismaUITests.swift; sourceTree = "<group>"; };
+		6A69DB911F63835700B842FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A69DB671F63835700B842FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69DB7D1F63835700B842FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69DB881F63835700B842FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A69DB611F63835600B842FC = {
+			isa = PBXGroup;
+			children = (
+				6A69DB6C1F63835700B842FC /* Week2_bisma */,
+				6A69DB831F63835700B842FC /* Week2_bismaTests */,
+				6A69DB8E1F63835700B842FC /* Week2_bismaUITests */,
+				6A69DB6B1F63835700B842FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A69DB6B1F63835700B842FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A69DB6A1F63835700B842FC /* Week2_bisma.app */,
+				6A69DB801F63835700B842FC /* Week2_bismaTests.xctest */,
+				6A69DB8B1F63835700B842FC /* Week2_bismaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A69DB6C1F63835700B842FC /* Week2_bisma */ = {
+			isa = PBXGroup;
+			children = (
+				6A69DB6D1F63835700B842FC /* AppDelegate.swift */,
+				6A69DB6F1F63835700B842FC /* FirstViewController.swift */,
+				6A69DB711F63835700B842FC /* SecondViewController.swift */,
+				6A69DB731F63835700B842FC /* Main.storyboard */,
+				6A69DB761F63835700B842FC /* Assets.xcassets */,
+				6A69DB781F63835700B842FC /* LaunchScreen.storyboard */,
+				6A69DB7B1F63835700B842FC /* Info.plist */,
+			);
+			path = Week2_bisma;
+			sourceTree = "<group>";
+		};
+		6A69DB831F63835700B842FC /* Week2_bismaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A69DB841F63835700B842FC /* Week2_bismaTests.swift */,
+				6A69DB861F63835700B842FC /* Info.plist */,
+			);
+			path = Week2_bismaTests;
+			sourceTree = "<group>";
+		};
+		6A69DB8E1F63835700B842FC /* Week2_bismaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A69DB8F1F63835700B842FC /* Week2_bismaUITests.swift */,
+				6A69DB911F63835700B842FC /* Info.plist */,
+			);
+			path = Week2_bismaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A69DB691F63835700B842FC /* Week2_bisma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A69DB941F63835700B842FC /* Build configuration list for PBXNativeTarget "Week2_bisma" */;
+			buildPhases = (
+				6A69DB661F63835700B842FC /* Sources */,
+				6A69DB671F63835700B842FC /* Frameworks */,
+				6A69DB681F63835700B842FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week2_bisma;
+			productName = Week2_bisma;
+			productReference = 6A69DB6A1F63835700B842FC /* Week2_bisma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A69DB7F1F63835700B842FC /* Week2_bismaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A69DB971F63835700B842FC /* Build configuration list for PBXNativeTarget "Week2_bismaTests" */;
+			buildPhases = (
+				6A69DB7C1F63835700B842FC /* Sources */,
+				6A69DB7D1F63835700B842FC /* Frameworks */,
+				6A69DB7E1F63835700B842FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A69DB821F63835700B842FC /* PBXTargetDependency */,
+			);
+			name = Week2_bismaTests;
+			productName = Week2_bismaTests;
+			productReference = 6A69DB801F63835700B842FC /* Week2_bismaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A69DB8A1F63835700B842FC /* Week2_bismaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A69DB9A1F63835700B842FC /* Build configuration list for PBXNativeTarget "Week2_bismaUITests" */;
+			buildPhases = (
+				6A69DB871F63835700B842FC /* Sources */,
+				6A69DB881F63835700B842FC /* Frameworks */,
+				6A69DB891F63835700B842FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A69DB8D1F63835700B842FC /* PBXTargetDependency */,
+			);
+			name = Week2_bismaUITests;
+			productName = Week2_bismaUITests;
+			productReference = 6A69DB8B1F63835700B842FC /* Week2_bismaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A69DB621F63835600B842FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iosdev;
+				TargetAttributes = {
+					6A69DB691F63835700B842FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6A69DB7F1F63835700B842FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A69DB691F63835700B842FC;
+					};
+					6A69DB8A1F63835700B842FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A69DB691F63835700B842FC;
+					};
+				};
+			};
+			buildConfigurationList = 6A69DB651F63835600B842FC /* Build configuration list for PBXProject "Week2_bisma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A69DB611F63835600B842FC;
+			productRefGroup = 6A69DB6B1F63835700B842FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A69DB691F63835700B842FC /* Week2_bisma */,
+				6A69DB7F1F63835700B842FC /* Week2_bismaTests */,
+				6A69DB8A1F63835700B842FC /* Week2_bismaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A69DB681F63835700B842FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A69DB7A1F63835700B842FC /* LaunchScreen.storyboard in Resources */,
+				6A69DB771F63835700B842FC /* Assets.xcassets in Resources */,
+				6A69DB751F63835700B842FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69DB7E1F63835700B842FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69DB891F63835700B842FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A69DB661F63835700B842FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A69DB721F63835700B842FC /* SecondViewController.swift in Sources */,
+				6A69DB6E1F63835700B842FC /* AppDelegate.swift in Sources */,
+				6A69DB701F63835700B842FC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69DB7C1F63835700B842FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A69DB851F63835700B842FC /* Week2_bismaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A69DB871F63835700B842FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A69DB901F63835700B842FC /* Week2_bismaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A69DB821F63835700B842FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A69DB691F63835700B842FC /* Week2_bisma */;
+			targetProxy = 6A69DB811F63835700B842FC /* PBXContainerItemProxy */;
+		};
+		6A69DB8D1F63835700B842FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A69DB691F63835700B842FC /* Week2_bisma */;
+			targetProxy = 6A69DB8C1F63835700B842FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A69DB731F63835700B842FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A69DB741F63835700B842FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A69DB781F63835700B842FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A69DB791F63835700B842FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A69DB921F63835700B842FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A69DB931F63835700B842FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A69DB951F63835700B842FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Week2_bisma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "umn.Week2-bisma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A69DB961F63835700B842FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Week2_bisma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "umn.Week2-bisma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A69DB981F63835700B842FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Week2_bismaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "umn.Week2-bismaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week2_bisma.app/Week2_bisma";
+			};
+			name = Debug;
+		};
+		6A69DB991F63835700B842FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Week2_bismaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "umn.Week2-bismaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week2_bisma.app/Week2_bisma";
+			};
+			name = Release;
+		};
+		6A69DB9B1F63835700B842FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Week2_bismaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "umn.Week2-bismaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Week2_bisma;
+			};
+			name = Debug;
+		};
+		6A69DB9C1F63835700B842FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Week2_bismaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "umn.Week2-bismaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Week2_bisma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A69DB651F63835600B842FC /* Build configuration list for PBXProject "Week2_bisma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A69DB921F63835700B842FC /* Debug */,
+				6A69DB931F63835700B842FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A69DB941F63835700B842FC /* Build configuration list for PBXNativeTarget "Week2_bisma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A69DB951F63835700B842FC /* Debug */,
+				6A69DB961F63835700B842FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A69DB971F63835700B842FC /* Build configuration list for PBXNativeTarget "Week2_bismaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A69DB981F63835700B842FC /* Debug */,
+				6A69DB991F63835700B842FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A69DB9A1F63835700B842FC /* Build configuration list for PBXNativeTarget "Week2_bismaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A69DB9B1F63835700B842FC /* Debug */,
+				6A69DB9C1F63835700B842FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A69DB621F63835600B842FC /* Project object */;
+}
